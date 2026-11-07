@@ -9,3 +9,16 @@ dependencies = [
     "langchain>=1.4.9",
     "pydantic-settings>=2.15.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.4.1.post1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "backend"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "session"
+

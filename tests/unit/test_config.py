@@ -25,8 +25,9 @@ class TestConfig(unittest.TestCase):
         self.assertEqual(settings.EMBEDDING_PROVIDER, "fake")
 
         # Persistence & Policy defaults
-        self.assertEqual(settings.DATABASE_URL, "sqlite+aiosqlite:///./data/support.db")
-        self.assertEqual(settings.CHECKPOINT_DB_PATH, "./data/checkpoints.db")
+        self.assertEqual(Settings.model_fields["DATABASE_URL"].default, "sqlite+aiosqlite:///./data/support.db")
+        self.assertEqual(Settings.model_fields["CHECKPOINT_DB_PATH"].default, "./data/checkpoints.db")
+        self.assertTrue(settings.DATABASE_URL.startswith("sqlite+aiosqlite:///"))
         self.assertTrue(settings.APPROVAL_REQUIRED_FOR_REFUNDS)
         self.assertEqual(settings.MAX_REFUND_WITHOUT_APPROVAL, 0.0)
         self.assertEqual(settings.RATE_LIMIT_PER_MINUTE, 120)
