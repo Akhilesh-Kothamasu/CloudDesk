@@ -212,11 +212,11 @@ class TestApplicationWiring(unittest.TestCase):
 
     def test_app_routes_registered(self):
         """Verify health routes are registered unprefixed on app."""
-        route_paths = [getattr(route, "path", None) for route in app.routes]
+        openapi_paths = list(app.openapi().get("paths", {}).keys())
 
-        self.assertIn("/health", route_paths)
-        self.assertIn("/health/live", route_paths)
-        self.assertIn("/health/ready", route_paths)
+        self.assertIn("/health", openapi_paths)
+        self.assertIn("/health/live", openapi_paths)
+        self.assertIn("/health/ready", openapi_paths)
 
     def test_middlewares_registered(self):
         """Verify RequestIdMiddleware and CORSMiddleware are registered in app."""
