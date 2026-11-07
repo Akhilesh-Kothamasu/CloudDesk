@@ -1,0 +1,38 @@
+[
+  {
+    "ticket_number": "CD-0982",
+    "subject": "SAML 2.0 certificate expired during weekend rotation",
+    "category": "login_issue",
+    "resolution_summary": "Rotated SAML signing certificate in Okta app configuration and purged identity cache.",
+    "similarity": 0.88
+  },
+  {
+    "ticket_number": "CD-0955",
+    "subject": "Billing charge dispute on seat removal",
+    "category": "billing",
+    "resolution_summary": "Calculated prorated credit for 3 unassigned seats and applied refund to original payment card.",
+    "similarity": 0.91
+  },
+  {
+    "ticket_number": "CD-0941",
+    "subject": "Nightly backup 429 Too Many Requests",
+    "category": "api_failure",
+    "resolution_summary": "Advised implementing exponential backoff with jitter and increased customer burst limit from 120 to 300 rpm.",
+    "similarity": 0.85
+  },
+  {
+    "ticket_number": "CD-0930",
+    "subject": "Workspace upload failure at 99%",
+    "category": "storage_quota",
+    "resolution_summary": "Purged deleted trash retention folder freeing 8 GB of storage quota.",
+    "similarity": 0.82
+  },
+  {
+    "ticket_number": "CD-0912",
+    "subject": "Slack app disconnected after webhook rotation",
+    "category": "integration",
+    "resolution_summary": "Re-authenticated CloudDesk bot in Slack app directory and updated signing secret.",
+    "similarity": 0.79
+  }
+]
+

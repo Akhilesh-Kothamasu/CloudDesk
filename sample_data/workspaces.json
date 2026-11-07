@@ -1,0 +1,75 @@
+[
+  {
+    "id": "ws-001",
+    "customer_id": "cust-001",
+    "name": "Acme Primary Workspace",
+    "member_count": 45,
+    "storage_used_gb": 420.5,
+    "integrations": ["slack", "jira", "github", "okta"],
+    "sso_enabled": true
+  },
+  {
+    "id": "ws-002",
+    "customer_id": "cust-002",
+    "name": "TechFlow Production Space",
+    "member_count": 92,
+    "storage_used_gb": 1150.0,
+    "integrations": ["slack", "pagerduty", "azure_ad"],
+    "sso_enabled": true
+  },
+  {
+    "id": "ws-003",
+    "customer_id": "cust-003",
+    "name": "Global Logistics Operations",
+    "member_count": 18,
+    "storage_used_gb": 140.0,
+    "integrations": ["slack", "zapier"],
+    "sso_enabled": false
+  },
+  {
+    "id": "ws-004",
+    "customer_id": "cust-004",
+    "name": "Nova Legacy Workspace",
+    "member_count": 12,
+    "storage_used_gb": 85.0,
+    "integrations": ["slack"],
+    "sso_enabled": false
+  },
+  {
+    "id": "ws-005",
+    "customer_id": "cust-005",
+    "name": "Pulse Metrics Analytics",
+    "member_count": 5,
+    "storage_used_gb": 49.8,
+    "integrations": ["github"],
+    "sso_enabled": false
+  },
+  {
+    "id": "ws-006",
+    "customer_id": "cust-006",
+    "name": "Apex Creative Studio Hub",
+    "member_count": 7,
+    "storage_used_gb": 34.0,
+    "integrations": ["figma", "slack"],
+    "sso_enabled": false
+  },
+  {
+    "id": "ws-007",
+    "customer_id": "cust-007",
+    "name": "Freelance Dev Space",
+    "member_count": 1,
+    "storage_used_gb": 2.5,
+    "integrations": [],
+    "sso_enabled": false
+  },
+  {
+    "id": "ws-008",
+    "customer_id": "cust-008",
+    "name": "Beacon Community Core",
+    "member_count": 2,
+    "storage_used_gb": 1.2,
+    "integrations": ["github"],
+    "sso_enabled": false
+  }
+]
+

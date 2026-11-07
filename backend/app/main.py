@@ -11,14 +11,22 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from backend.app.api.health import router as health_router
 from backend.app.core.config import get_settings
+from backend.app.core.database import create_tables
 from backend.app.core.logging import setup_logging
 from backend.app.middleware.request_id import RequestIdMiddleware
+from backend.app.services.seed_service import bootstrap_demo_data
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     """Application lifespan manager for startup and shutdown hooks."""
     setup_logging()
+    settings = get_settings()
+
+    if settings.DEMO_MODE:
+        await create_tables()
+        await bootstrap_demo_data()
+
     yield
 
 
