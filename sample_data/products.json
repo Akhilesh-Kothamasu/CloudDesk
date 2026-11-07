@@ -1,0 +1,35 @@
+[
+  {
+    "id": "prod-001",
+    "name": "CloudDesk Free",
+    "code": "CD-FREE",
+    "tier": "free",
+    "base_price": 0.0,
+    "description": "Essential support platform features for small teams and solo developers."
+  },
+  {
+    "id": "prod-002",
+    "name": "CloudDesk Pro",
+    "code": "CD-PRO",
+    "tier": "pro",
+    "base_price": 29.0,
+    "description": "Standard business support platform with increased storage and higher API limits."
+  },
+  {
+    "id": "prod-003",
+    "name": "CloudDesk Business",
+    "code": "CD-BUSINESS",
+    "tier": "business",
+    "base_price": 99.0,
+    "description": "Advanced workflows, multi-channel queues, and workspace collaboration."
+  },
+  {
+    "id": "prod-004",
+    "name": "CloudDesk Enterprise",
+    "code": "CD-ENTERPRISE",
+    "tier": "enterprise",
+    "base_price": 299.0,
+    "description": "Mission-critical SLAs, SAML/SSO integration, audit log retention, and dedicated support."
+  }
+]
+

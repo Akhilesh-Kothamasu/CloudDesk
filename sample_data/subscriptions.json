@@ -1,0 +1,91 @@
+[
+  {
+    "id": "sub-001",
+    "customer_id": "cust-001",
+    "plan": "enterprise",
+    "seats": 50,
+    "status": "active",
+    "mrr": 3950.0,
+    "storage_quota_gb": 1000,
+    "storage_used_gb": 420.5,
+    "api_rate_limit": 1000
+  },
+  {
+    "id": "sub-002",
+    "customer_id": "cust-002",
+    "plan": "enterprise",
+    "seats": 100,
+    "status": "active",
+    "mrr": 7900.0,
+    "storage_quota_gb": 2000,
+    "storage_used_gb": 1150.0,
+    "api_rate_limit": 2000
+  },
+  {
+    "id": "sub-003",
+    "customer_id": "cust-003",
+    "plan": "business",
+    "seats": 20,
+    "status": "active",
+    "mrr": 980.0,
+    "storage_quota_gb": 250,
+    "storage_used_gb": 140.0,
+    "api_rate_limit": 500
+  },
+  {
+    "id": "sub-004",
+    "customer_id": "cust-004",
+    "plan": "business",
+    "seats": 15,
+    "status": "active",
+    "mrr": 735.0,
+    "storage_quota_gb": 200,
+    "storage_used_gb": 85.0,
+    "api_rate_limit": 500
+  },
+  {
+    "id": "sub-005",
+    "customer_id": "cust-005",
+    "plan": "pro",
+    "seats": 5,
+    "status": "active",
+    "mrr": 145.0,
+    "storage_quota_gb": 50,
+    "storage_used_gb": 49.8,
+    "api_rate_limit": 200
+  },
+  {
+    "id": "sub-006",
+    "customer_id": "cust-006",
+    "plan": "pro",
+    "seats": 8,
+    "status": "active",
+    "mrr": 232.0,
+    "storage_quota_gb": 80,
+    "storage_used_gb": 34.0,
+    "api_rate_limit": 200
+  },
+  {
+    "id": "sub-007",
+    "customer_id": "cust-007",
+    "plan": "free",
+    "seats": 1,
+    "status": "active",
+    "mrr": 0.0,
+    "storage_quota_gb": 10,
+    "storage_used_gb": 2.5,
+    "api_rate_limit": 60
+  },
+  {
+    "id": "sub-008",
+    "customer_id": "cust-008",
+    "plan": "free",
+    "seats": 2,
+    "status": "active",
+    "mrr": 0.0,
+    "storage_quota_gb": 10,
+    "storage_used_gb": 1.2,
+    "api_rate_limit": 60
+  }
+]
+

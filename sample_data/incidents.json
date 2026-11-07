@@ -1,0 +1,19 @@
+[
+  {
+    "id": "inc-001",
+    "title": "Authentication and SSO Latency in US-East",
+    "description": "Investigating elevated error rates and timeouts during SAML/SSO token exchange for Okta and Azure AD integrations.",
+    "status": "investigating",
+    "severity": "critical",
+    "affected_services": ["auth-service", "sso-gateway", "saml-idp"]
+  },
+  {
+    "id": "inc-002",
+    "title": "Elevated Rate Limiting on REST API v1",
+    "description": "Sync jobs exceeding per-minute burst thresholds due to upstream caching cluster maintenance.",
+    "status": "monitoring",
+    "severity": "medium",
+    "affected_services": ["api-gateway", "rate-limiter"]
+  }
+]
+

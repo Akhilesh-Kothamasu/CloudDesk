@@ -1,0 +1,83 @@
+[
+  {
+    "id": "cust-001",
+    "name": "Alice Martin",
+    "email": "alice@acme.com",
+    "company": "Acme Corp",
+    "plan_name": "enterprise",
+    "status": "active",
+    "region": "us-east",
+    "lifetime_value": 45000.0
+  },
+  {
+    "id": "cust-002",
+    "name": "David Chen",
+    "email": "david@techflow.io",
+    "company": "TechFlow Systems",
+    "plan_name": "enterprise",
+    "status": "active",
+    "region": "us-west",
+    "lifetime_value": 72000.0
+  },
+  {
+    "id": "cust-003",
+    "name": "Marcus Vance",
+    "email": "marcus@globallogistics.com",
+    "company": "Global Logistics",
+    "plan_name": "business",
+    "status": "active",
+    "region": "eu-west",
+    "lifetime_value": 18500.0
+  },
+  {
+    "id": "cust-004",
+    "name": "Elena Rostova",
+    "email": "elena@novadynamics.com",
+    "company": "Nova Dynamics",
+    "plan_name": "business",
+    "status": "active",
+    "region": "us-east",
+    "lifetime_value": 14200.0
+  },
+  {
+    "id": "cust-005",
+    "name": "Sarah Jenkins",
+    "email": "sarah@pulsemetrics.co",
+    "company": "Pulse Metrics",
+    "plan_name": "pro",
+    "status": "active",
+    "region": "us-central",
+    "lifetime_value": 3500.0
+  },
+  {
+    "id": "cust-006",
+    "name": "Jordan Lee",
+    "email": "jordan@apexstudio.design",
+    "company": "Apex Design Studio",
+    "plan_name": "pro",
+    "status": "active",
+    "region": "us-west",
+    "lifetime_value": 2800.0
+  },
+  {
+    "id": "cust-007",
+    "name": "Carlos Rivera",
+    "email": "carlos@freelancelabs.dev",
+    "company": "Freelance Labs",
+    "plan_name": "free",
+    "status": "active",
+    "region": "sa-east",
+    "lifetime_value": 0.0
+  },
+  {
+    "id": "cust-008",
+    "name": "Nina Al-Mansoor",
+    "email": "nina@beacon-os.org",
+    "company": "Beacon Open Source",
+    "plan_name": "free",
+    "status": "active",
+    "region": "eu-central",
+    "lifetime_value": 0.0
+  }
+]
+
