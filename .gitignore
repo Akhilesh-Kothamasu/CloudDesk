@@ -34,10 +34,18 @@ venv.bak/
 !.env.example
 
 # Logs and databases
+data/
 *.log
 *.sqlite
 *.sqlite3
 *.db
+
+# Terraform & Cloud
+*.tfstate
+*.tfstate.*
+*.tfplan
+backend.hcl
+terraform.tfvars
 
 # Testing and Coverage
 .coverage
