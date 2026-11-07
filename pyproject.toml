@@ -5,6 +5,7 @@ description = "CloudDesk — Autonomous Customer Support & Resolution Platform"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "fastapi>=0.121.0",
     "langchain>=1.4.9",
     "pydantic-settings>=2.15.0",
 ]
